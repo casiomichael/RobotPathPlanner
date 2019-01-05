@@ -1,4 +1,6 @@
 # Multi-Robot Path Planner
+## Running the Project
+To run the project, Jupyter is needed, since all files are Jupyter .ipynb files. 
 ## Algorithm Overview
 There are many scenarios in which robots can be in a deadlock given a certain grid, obstacles in the grid, positioning of start and end positions of robots, etc. To tackle the problem of avoiding this deadlock such that robots don't try to go to the same cell at the same time, or collide with one another when it is in a 2x2 square, we first look into generating a path for each individual robot, without regard of future collisions.
 
